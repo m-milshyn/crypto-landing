@@ -1,0 +1,230 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #FFFCFC;
+}
+
+.bg {
+    top: 5px;
+    z-index: 1;
+    position: absolute;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    filter: blur(15px);
+    height: 100%;
+    width: 100%;
+    transform: scale(1.06);
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.content__left {
+    font-family: 'Inter-Regular';
+    margin-left: 5%;
+}
+
+.left__h2 {}
+.left__h2 h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFCFC;
+}
+
+.left__p {
+    margin-bottom: 74px;
+}
+.left__p p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #C9C9C9;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.login__form input {
+    color: #EAEAEA;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFCFC;
+}
+#login-email {
+    margin-bottom: 37px;
+}
+
+.btn__block {
+    margin: 74px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link__create {
+    height: 66px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.link__create a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 17px;
+    border-radius: 8px;
+    flex-grow: 1;
+}
+.link__create span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.link__google {
+    display: flex;
+    height: 66px;
+    transition: all .2s;
+}
+.link__google a{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    flex-grow: 1;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.conteiner__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link__google:hover {
+    background-color: #00000059;
+    border-radius: 8px;
+}
+.link__google span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+.link__google img {
+    margin-right: 7px;
+    width: 33px;
+    height: 33px;
+}
+.left__haveacc {
+    display: flex;
+    font-family: 'Inter-Light';
+    color: #C9C9C9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.haveacc__p {
+    margin-right: 10px;
+}
+
+.haveacc__link {
+    text-decoration: underline;
+}
+.haveacc__link a {
+    color: #C9C9C9;
+}
+.haveacc__link a:hover {
+    color: #ffffff;
+}
+
+.content__glass {
+    height: 70%;
+    width: 40%;
+    margin-right: 72px;
+    padding: 71px 46px 49px 46px;
+    background: linear-gradient(140.23deg, rgba(176, 176, 176, 0.3) 1.57%, rgba(217, 217, 217, 0) 100%);
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    border-radius: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.glass__h2 {
+    align-self: flex-start;
+}
+.glass__h2 h2 {
+    width: 375px;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.glass__h4 {
+    align-self: flex-end;
+}
+.glass__h4 h4 {
+    width: 238px;
+    font-family: 'Inter-Thin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+}
+
+
+/*--------------------------FONTS--------------------------*/
+@font-face {
+    font-family: "Inter-Light";
+    src: url("../fonts/Inter-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter-V";
+    src: url("../fonts/Inter-V.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter-Thin";
+    src: url("../fonts/Inter-Thin.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*---------------------------------------------------------*/
